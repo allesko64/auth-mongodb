@@ -41,32 +41,6 @@ For production/local start:
 npm start
 ```
 
-## Environment Variables
-
-```env
-PORT=5000
-NODE_ENV=development
-
-MONGODB_URI=mongodb://127.0.0.1:27017/authdb
-
-JWT_ACCESS_TOKEN=your_access_secret
-JWT_REFRESH_TOKEN=your_refresh_secret
-JWT_ACCESS_EXPIRES_IN=15m
-JWT_REFRESH_EXPIRES_IN=7d
-
-SMTP_HOST=smtp.example.com
-SMTP_PORT=587
-SMTP_USER=your_smtp_user
-SMTP_PASS=your_smtp_pass
-SMTP_FROM_NAME=Auth API
-SMTP_FROM_EMAIL=no-reply@example.com
-
-CLIENT_URL=http://localhost:3000
-```
-
-## API Base URL
-
-`/api/auth`
 
 ## Routes
 
